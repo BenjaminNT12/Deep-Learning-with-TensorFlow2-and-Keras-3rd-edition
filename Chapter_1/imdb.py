@@ -53,3 +53,4 @@ score = model.fit(X_train, y_train,
 score = model.evaluate(X_test, y_test, batch_size=BATCH_SIZE)
 print("\nTest score:", score[0])
 print('Test accuracy:', score[1])
+
